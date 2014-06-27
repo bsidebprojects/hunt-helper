@@ -7,20 +7,204 @@
     tools:ignore="MergeRootFrame" 
     android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/editText1"
-        android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/startHeader"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:value="start-0">
-        <requestFocus />
-    </EditText>
+        android:text="Let's go" />
 
-    <Button
-        android:id="@+id/button1"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="click"
-        android:text="Execute" />
+        android:layout_height="wrap_content" >
 
+        <Button
+            android:id="@+id/start0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="start-0"
+            android:onClick="click"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/start1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="start-1"
+            android:onClick="click"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/start2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="start-2"
+            android:onClick="click"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/helpoutsHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Helpouts Cam" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/help0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="help-0"
+            android:onClick="click"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/help1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="help-1"
+            android:onClick="click"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/help2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="help-2"
+            android:onClick="click"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/serverHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Server corridor" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/server0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="server-0"
+            android:onClick="click"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/server1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="server-1"
+            android:onClick="click"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/server2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="server-2"
+            android:onClick="click"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/fitnessHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fitness" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/fitness0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fitness-0"
+            android:onClick="click"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/fitness1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fitness-1"
+            android:onClick="click"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/fitness2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fitness-2"
+            android:onClick="click"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/scottHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Physical Web" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/scott0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="scott-0"
+            android:onClick="click"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/scott1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="scott-1"
+            android:onClick="click"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/scott2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="scott-2"
+            android:onClick="click"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    
 </LinearLayout>

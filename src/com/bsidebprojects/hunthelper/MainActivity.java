@@ -5,7 +5,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.EditText;
+import android.widget.Button;
 
 public class MainActivity extends Activity {
 	/** Called when the activity is first created. */
@@ -17,10 +17,7 @@ public class MainActivity extends Activity {
 	
 	public void click (View view) {
 		Intent intent = new Intent("android.nfc.action.NDEF_DISCOVERED");
-		
-		EditText text = (EditText) findViewById(R.id.editText1);
-		
-		intent.setData(Uri.parse("https://nfchunt.appspot.com/f?c="+ text.getText().toString()));
+		intent.setData(Uri.parse("https://nfchunt.appspot.com/f?c="+ ((Button)view).getText().toString()));
 
 		startActivity(intent);
 	}
