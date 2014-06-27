@@ -21,4 +21,12 @@ public class MainActivity extends Activity {
 
 		startActivity(intent);
 	}
+	public void clickVend (View view) {
+		Intent intent = new Intent("android.nfc.action.NDEF_DISCOVERED");
+		//intent.setClassName("com.google.wolff.androidhunt2", "com.google.wolff.androidhunt.NoBleButtonActivity");
+		intent.putExtra("com.google.wolff.androidhunt.MESSAGE", "vend");
+
+		startActivity(intent);
+	}
+
 }
