@@ -203,16 +203,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:onClick="click"
+                android:onClick="clickAlert"
                 android:text="scott-2" />
 
-            <Button
+            <!--Button
                 android:id="@+id/vend"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="clickVend"
-                android:text="vend" />
+                android:text="vend" /-->
         </LinearLayout>
 
         <TextView
