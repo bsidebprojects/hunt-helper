@@ -32,7 +32,7 @@ public class MainActivity extends Activity {
 		final String key = ((Button)view).getText().toString();
 		AlertDialog.Builder builder = new AlertDialog.Builder(this);
 		builder.setTitle("Warning");
-		builder.setMessage("You need to enable bluetooth and continue. When the app asks you to get close to the vending machine, rename other bluetooth device to 107.170.224.219 and bring them together, then tap 11 times on the vending picture of the screen and you will get the Vend button\n\nNote: both devices have to support BLE (Nexus 4, Nexus 5, LG GWatch...)");
+		builder.setMessage("You need to enable bluetooth before the next step. When the app asks you to get close to the vending machine just click 11 times in the image");
 		builder.setPositiveButton("Accept", new OnClickListener() {
 			@Override
 			public void onClick(DialogInterface dialog, int which) {
@@ -51,7 +51,7 @@ public class MainActivity extends Activity {
 		final String key = ((Button)view).getText().toString();
 		AlertDialog.Builder builder = new AlertDialog.Builder(this);
 		builder.setTitle("Warning");
-		builder.setMessage("You'll be asked for a code. It's 1338");
+		builder.setMessage("You'll be asked for a code. It's 1339 (extra achievement), 1338 or 5555");
 		builder.setPositiveButton("Accept", new OnClickListener() {
 			@Override
 			public void onClick(DialogInterface dialog, int which) {
